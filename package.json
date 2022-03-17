@@ -1,0 +1,20 @@
+{
+  "name": "oswap-governance-discord",
+  "version": "1.0.0",
+  "description": "Watch oswap.io (Governance) and post event notifications on Discord",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js"
+  },
+  "dependencies": {
+    "aabot": "git+https://github.com/byteball/aabot.git",
+    "dotenv": "^8.2.0",
+    "governance_events": "git+https://github.com/byteball/governance_events.git",
+    "ocore": "git+https://github.com/byteball/ocore.git"
+  },
+  "keywords": ["dag", "discord", "oswap", "obyte", "dlt"],
+  "license": "MIT",
+  "resolutions": {
+    "level-rocksdb": "^4.0.0"
+  }
+}
