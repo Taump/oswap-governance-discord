@@ -40,7 +40,7 @@ eventBus.on('aa_response', async function (objResponse) {
     const event = await governanceEvents.treatResponseFromGovernanceAA(objResponse, main_aa.asset);
 
     const aa_name = main_aa.aa_address + ' (' + governance_aa.x_symbol + '-' + governance_aa.y_symbol + ')';
-    governanceDiscord.announceEvent(aa_name, main_aa.symbol, main_aa.decimals, conf.oswap_base_url + "#" + main_aa.aa_address, event);
+    governanceDiscord.announceEvent(aa_name, main_aa.symbol, main_aa.decimals, conf.oswap_base_url + main_aa.aa_address, event);
   }
 });
 
