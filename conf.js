@@ -15,7 +15,7 @@ exports.explorer_base_url = process.env.testnet ? 'https://testnetexplorer.obyte
 exports.oswap_base_url = process.env.testnet ? 'https://testnet-governance.oswap.io/' : 'https://governance.oswap.io/';
 
 exports.governance_base_AAs = [
-  'WBGLXP6WYRTHXYGBOBSBIHXM6TTGUUL7'
+  'QQJXAEYSZU76EPDALIRNUFFTWMKGADHV'
 ];
 
 exports.token_registry_AA_address = process.env.token_registry_AA_address;
